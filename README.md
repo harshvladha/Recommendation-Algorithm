@@ -1,7 +1,8 @@
-# RecommendMe
+# RecommendMe - Recommendation Engine for everything!
 Network Based Recommendation Engine using Map-Reduce (in Python) to run on top of Hadoop!
 
 The recommendation engine is divided into three parts :
+
 1. Pre-process Job
 2. Resource Allocation Job
 3. Recommendation Job
