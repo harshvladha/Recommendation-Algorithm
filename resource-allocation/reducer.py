@@ -13,7 +13,7 @@ def reducer():
         key, value = data #current key and value in the buffer stream
 
         if prevKey and prevKey!=key:
-            print("{0}:{1}".format(prevKey, recpower))
+            print("{0}::{1}".format(prevKey, recpower))
             recpower = 0
 
         prevKey = key
@@ -21,7 +21,7 @@ def reducer():
 
     #for last key value pair
     if prevKey :
-        print("{0}:{1}".format(prevKey, recpower))
+        print("{0}::{1}".format(prevKey, recpower))
 
 if __name__ == "__main__":
     reducer()
