@@ -1,0 +1,5 @@
+#!/bin/bash
+~/hadoop/bin/hadoop jar ~/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.5.0.jar \
+  -file $1 -mapper $1 \
+  -file $2 -reducer $2 \
+  -input $3 -output $4
