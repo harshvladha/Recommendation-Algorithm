@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh node6 ~/hadoop/sbin/stop-dfs.sh
