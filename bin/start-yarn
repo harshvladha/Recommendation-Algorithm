@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh node3 ~/hadoop/sbin/start-yarn.sh
