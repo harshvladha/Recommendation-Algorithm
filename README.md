@@ -11,6 +11,9 @@ Each job has their own mapper and reducer.
 
 MongoDB is used in this version for real-time data storage and streaming. 
 
-Link to whole algorithm and article will be added soon.
+[Algorithm explanation link](http://2wicklers.com/recommendme-recommendation-engine/)
 
 Movie-Lens data set : ml-1m is used as reference!
+
+## Hadoop Streaming
+To run python map-reduce programs we need Hadoop Streaming. Command for hadoop streaming is inside bin directory of this project, please replace directories as per your need.
