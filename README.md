@@ -1,4 +1,4 @@
-# RecommendMe - Recommendation Engine for everything!
+# Recommendation Algorithm - Recommendation Engine for everything!
 
 [![Join the chat at https://gitter.im/harshvladha/RecommendMe](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/harshvladha/RecommendMe?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Network Based Recommendation Engine using Map-Reduce (in Python) to run on top of Hadoop!
